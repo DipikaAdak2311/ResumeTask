@@ -1,0 +1,106 @@
+body {
+    background: rgb(204,204,204);
+    justify-content: center;
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+i{
+  margin-right: 10px;
+  color: #5D3E00;
+}
+  
+page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+.mainclass{
+    font-size: 23px;
+    margin: 0px 5px;
+    display: flex;
+    gap: 200px;
+}
+
+.header-item{
+    margin-top: 60px;
+    font-family: "Arial";
+}
+
+.heading{
+    margin-top: -25px;
+    color: rgb(133, 133, 133);
+}
+
+h1{
+    color: #5D3E00;
+}
+
+li{
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column {
+    width: 200px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 0px;
+    background-color: #e2e1e1;
+}
+
+.technical {
+  display: flex;
+}
+
+h4 {
+  font-family: Arial;
+  font-weight: 700;
+  color: #5D3E00;
+}
+
+.right-column {  
+  flex: 2;
+}
+
+ul {  
+    list-style-type: none;
+    padding: 0;  
+    margin: 0;
+  }
+
+  .krishi {
+    list-style-type:disc;
+    margin-left: 16px;
+  }
+
+  li {  
+    margin-bottom: 10px;
+  }
+  
+  p {  
+    margin-bottom: 20px;
+    line-height: 1.3;
+    justify-content: center;
+  }
+
+  .experience-item{  
+    margin-bottom: 5px;
+    margin-top: -20px;
+    border-left: 5px solid #5D3E00;;  
+    padding-left: 20px;
+    font-family: "Georgia";
+  }
+
